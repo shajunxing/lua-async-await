@@ -66,7 +66,7 @@ A: The essence of await is to pass parameters, so the parameters in parentheses 
 Q: What is the difference between a normal function and an asynchronized function? <br>
 A: The magic of asynchronize is that it looks like a function on the outside, but inside it is a coroutine environment, which is necessary to use await.
 
-Q: Don't see async in your sample code? <br>
+Q: There is no asynchronous code in your example? <br>
 A: That's right, the async/await pattern just provides a framework that can be executed in the order of the code, including coroutines, and there is no magic of asynchronous execution in itself. The underlying layer of any asynchronous must be a callback function, and only a callback function can disrupt the execution order. Coroutines can be used to accomplish conversions, and here are some examples:
 
 ```
@@ -114,7 +114,7 @@ local main =
 main()
 ```
 
-Resources:
+Reference:
 
 - [From Javascript Callbacks to Promises to Generators and Coroutines
 ](https://cscrunch.com/content/javascript-callbacks-promises-generators-and-coroutines)

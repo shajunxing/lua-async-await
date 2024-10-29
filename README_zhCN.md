@@ -66,7 +66,7 @@ A：await的本质是传参，所以括号内的参数都是必须先计算出�
 Q：那么普通函数和异步化后的函数有什么区别？<br>
 A：异步化的魔力在于外部看是函数，但内部是协程环境，是使用await所必须的。
 
-Q：在你的示例代码里没见到异步啊？<br>
+Q：在你的示例里没有异步执行的代码啊？<br>
 A：没错，async/await模式只是提供一个能够依照代码的顺序执行的框架，包括协程，本身都没有异步执行的魔法。任何异步的底层一定都是回调函数，只有回调函数才能打乱执行顺序。借助协程可完成转换，以下是范例：
 
 ```
@@ -114,7 +114,7 @@ local main =
 main()
 ```
 
-参考资料：
+参考：
 
 - [From Javascript Callbacks to Promises to Generators and Coroutines
 ](https://cscrunch.com/content/javascript-callbacks-promises-generators-and-coroutines)
