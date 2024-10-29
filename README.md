@@ -1,6 +1,6 @@
 # Paradigm shift: from coroutines, callbacks to asynchronous
 
-This article is openly licensed via [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by/4.0/).
+This article is openly licensed via [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 [English Version](README.md) | [Chinese Version](README_zhCN.md)
 

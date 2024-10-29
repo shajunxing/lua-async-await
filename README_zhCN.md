@@ -1,6 +1,6 @@
 # 范式转移：从协程、回调到异步
 
-本文使用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。
+本文使用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可。
 
 [英文版](README.md) | [中文版](README_zhCN.md)
 
