@@ -1,5 +1,7 @@
 # Paradigm shift: from coroutines, callbacks to asynchronous
 
+This article is openly licensed via [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 [English Version](README.md) | [Chinese Version](README_zhCN.md)
 
 Coroutines, callbacks, and asyncs are not difficult to explain separately, but the relationship between them is very brain-burning, and I haven't seen any article that can explain it clearly, so here I try to explain it with the simplest idea: how to convert coroutines and callbacks to the popular async/await pattern, I use lua 5.1 to explain.
